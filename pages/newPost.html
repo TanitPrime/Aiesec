@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opportunities</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <section class="newPost">
+        <div class="container">
+            <p>
+                <h3>Create a new opportunity</h3>
+            </p>
+            <div >
+                <form id="opportunityForm" style="display: flex;flex-direction: column;width: 50%;height: 50vh;margin: auto;">
+                <label for="category">category</label>
+                <select id="category" name="category">
+                    <option value="intern"selected="selected">intern</option>
+                    <option value="teacher" >teacher</option>
+                    <option value="volunteer">volunteer</option>
+                  </select>
+                  
+                <label for="title">title</label>
+                <input type="text" name="title" id="title" required>
+                <label for="disc">disc</label>
+                <textarea name="disc" id="disc" rows="3" required>Discription here</textarea>
+                <label for="imgLink">imgLink</label>
+                <input type="text" name="imgLink" id="imgLink"  required>
+                <!-- <label for="opportunityLink">imgLink</label>
+                <input type="text" name="opportunityLink" id="opportunityLink" required> -->
+                
+
+                <input type="submit" value="Create" style="width: 200px;margin: 50px auto;">
+            </form>
+            </div>
+        </div>
+      </section>
+
+      <footer class="footer"></footer>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/loadLayout.js"></script>
+    <script src="../js/newPost.js"></script>
+  </body>
+</html>

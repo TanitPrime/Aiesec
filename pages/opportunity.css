@@ -1,0 +1,52 @@
+.data-display{
+    border-top: 1px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px 20px 0px;
+}
+.opportunity{
+    border-bottom:1px solid #e7e7e7;
+    border-top:1px solid #e7e7e7;
+    width: 70%;
+    margin: 0;
+    min-height: 20rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 0px;
+    transition: .3s ease;
+}
+.opportunity:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px #e7e7e7;
+}
+.body{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+.pic{
+    position: relative;
+    border-right: 1px solid #e7e7e7;
+    height: 100%50vh;
+    min-width: 200px;
+}
+#title{
+    text-transform: capitalize;
+    display: inline;
+}
+.disc{
+    margin-top: 20px;
+    color: #9b9b9b;
+    height: 60%;
+    width: 90%;
+}
+.Apply{
+    padding: 5px 10px 5px 10px;
+    float: right;
+    position: absolute;
+    bottom:1vh;
+    right: 5vh;
+}

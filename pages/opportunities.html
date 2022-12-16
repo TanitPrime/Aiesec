@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opportunities</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../responsive.css" />
+    <link rel="stylesheet" href="./opportunities.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <section class="opportunities">
+        <div class="card-group">
+          <div class="card card1">
+            <div class="card-body">
+              <h2 class="card-title">INTERN</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                quod libero eaque sit dolorum adipisci excepturi dolorem
+                voluptate nisi doloremque.
+              </p>
+              <button id="i-btn">Check it out</button>
+            </div>
+          </div>
+          <div class="card card2">
+            <div class="card-body">
+              <h2 class="card-title">TEACH</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatem illum tempore quis eaque autem veniam libero aperiam
+                laborum facilis voluptatum!
+              </p>
+              <button id="t-btn">Check it out</button>
+            </div>
+          </div>
+          <div class="card card3">
+            <div class="card-body">
+              <h2 class="card-title">VOLUNTEER</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptate, dolores vitae aspernatur nisi accusamus culpa aliquid
+                totam? Quidem, cupiditate cum?
+              </p>
+              <button id="v-btn">Check it out</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer"></footer>
+    </div>
+
+    <script>
+      document.querySelector("#v-btn").addEventListener("click", () => {
+        window.location.href = "./volunteer.html";
+      });
+      document.querySelector("#t-btn").addEventListener("click", () => {
+        window.location.href = "./teacher.html";
+      });
+      document.querySelector("#i-btn").addEventListener("click", () => {
+        window.location.href = "./intern.html";
+      });
+    </script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/loadLayout.js"></script>
+  </body>
+</html>

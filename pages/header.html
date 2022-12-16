@@ -1,0 +1,40 @@
+
+    <!-- <section class="header-top"> -->
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </section>
+    <section class="header-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 col-xs-12">
+                    <a href="../index.html">
+                        <div class="main-logo">
+                            <img src="../favicon.ico" alt="">
+                            <h2>IGV TACAPES</h2>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-7 col-sm-12 col-xs-12">
+                    <div class="menu">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="../index.html">HOME</a></li>
+                            <li><a href="./Testimonials.html">TESTIMONIALS</a></li>
+
+                            <li><a href="./Contact.html">CONTACT</a></li>
+                            <li><a href="./Projects.html">PROJECTS</a></li>
+                            <li><a id="account" href="./Login.html">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+    if(document.cookie.includes("AuthCookie")){
+        const account = document.querySelector("#account")
+        account.innerHTML = "MY ACCOUNT";
+        account.href = "./account.html"
+    }
+    </script>

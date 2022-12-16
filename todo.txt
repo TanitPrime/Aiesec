@@ -1,0 +1,12 @@
+move index into pages folder for easier routing
+
+add "account" id to all pages' headers
+
+make logout button work
+
+style my account page and implement the display (use cookie)
+
+add form page for creating opportunities
+
+add form page to manage users
+
