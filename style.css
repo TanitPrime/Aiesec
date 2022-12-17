@@ -83,12 +83,14 @@ html,body{
 }
 
 .carosal-area {
-    background-image: url("img/carosal-bg.jpg");
+    background-image: url("img/igv_dep.jpg");
     background-size: cover;
+    height: 80vh;
 }
 
 .carosal-area .text {
     text-align: center;
+    text-shadow: #000 1px 0 10px;
     margin-bottom: 50px;
 }
 
@@ -1135,4 +1137,30 @@ html,body{
 .col-md-12 .item{
    border-radius: 10px;
    overflow: hidden;
+}
+#project{
+   border: 1px solid transparent;
+   background-color: #e7e7e7
+}
+
+.project-disc{
+   font-size: 2rem;
+   text-align: center;
+   
+}
+
+.material-btn{
+    text-decoration: none !important;
+    line-height: 4.5rem;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    font-size: 2rem;
+    display: inline-block;
+   border: 1px solid black;
+   border-radius: 2.5rem;
+   color: black;
+}
+.material-btn :hover{
+    color: #cf5d28 !important;
 }
